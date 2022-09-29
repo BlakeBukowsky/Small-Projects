@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "s9ydOBg+hB9oKM/nyY72FS3E5AT1Et8iMFV+yuyAOi4k6z6P5h5KT367ZIPuGxqcZM9cc24OyODFbFe7x7QM7w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\blake\\Code\\Patterns\\Fourier\\Fourier.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\blake\\.nuget\\packages\\raylib\\4.0.0.7\\raylib.4.0.0.7.nupkg.sha512",
+    "C:\\Users\\blake\\.nuget\\packages\\raylib-cs\\4.0.0.1\\raylib-cs.4.0.0.1.nupkg.sha512",
+    "C:\\Users\\blake\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

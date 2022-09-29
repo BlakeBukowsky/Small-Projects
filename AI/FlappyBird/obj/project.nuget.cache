@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "QnK0ItBcmFK01pCHCzKMW//ypkeq2Hd0EnztGr+k7i/g2ckaxxz1TOCNBQFEfyhuL3+1oV/QO+KLfwGf+8G9TQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\blake\\Code\\AI\\FlappyBird\\FlappyBird.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\blake\\.nuget\\packages\\mathnet.numerics\\4.15.0\\mathnet.numerics.4.15.0.nupkg.sha512",
+    "C:\\Users\\blake\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\blake\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\blake\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\blake\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
+  "logs": []
+}

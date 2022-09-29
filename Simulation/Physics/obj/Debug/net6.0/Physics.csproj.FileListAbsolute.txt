@@ -1,0 +1,42 @@
+C:\Users\blake\Coding Projects\AI\Physics\bin\Debug\net6.0\Physics.exe
+C:\Users\blake\Coding Projects\AI\Physics\bin\Debug\net6.0\Physics.deps.json
+C:\Users\blake\Coding Projects\AI\Physics\bin\Debug\net6.0\Physics.runtimeconfig.json
+C:\Users\blake\Coding Projects\AI\Physics\bin\Debug\net6.0\Physics.dll
+C:\Users\blake\Coding Projects\AI\Physics\bin\Debug\net6.0\ref\Physics.dll
+C:\Users\blake\Coding Projects\AI\Physics\bin\Debug\net6.0\Physics.pdb
+C:\Users\blake\Coding Projects\AI\Physics\bin\Debug\net6.0\Raylib-cs.dll
+C:\Users\blake\Coding Projects\AI\Physics\bin\Debug\net6.0\runtimes\linux-x64\native\libraylib.so
+C:\Users\blake\Coding Projects\AI\Physics\bin\Debug\net6.0\runtimes\osx-x64\native\libraylib.dylib
+C:\Users\blake\Coding Projects\AI\Physics\bin\Debug\net6.0\runtimes\win-x64\native\raylib.dll
+C:\Users\blake\Coding Projects\AI\Physics\bin\Debug\net6.0\runtimes\win-x86\native\raylib.dll
+C:\Users\blake\Coding Projects\AI\Physics\obj\Debug\net6.0\Physics.csproj.AssemblyReference.cache
+C:\Users\blake\Coding Projects\AI\Physics\obj\Debug\net6.0\Physics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\blake\Coding Projects\AI\Physics\obj\Debug\net6.0\Physics.AssemblyInfoInputs.cache
+C:\Users\blake\Coding Projects\AI\Physics\obj\Debug\net6.0\Physics.AssemblyInfo.cs
+C:\Users\blake\Coding Projects\AI\Physics\obj\Debug\net6.0\Physics.csproj.CoreCompileInputs.cache
+C:\Users\blake\Coding Projects\AI\Physics\obj\Debug\net6.0\Physics.csproj.CopyComplete
+C:\Users\blake\Coding Projects\AI\Physics\obj\Debug\net6.0\Physics.dll
+C:\Users\blake\Coding Projects\AI\Physics\obj\Debug\net6.0\ref\Physics.dll
+C:\Users\blake\Coding Projects\AI\Physics\obj\Debug\net6.0\Physics.pdb
+C:\Users\blake\Coding Projects\AI\Physics\obj\Debug\net6.0\Physics.genruntimeconfig.cache
+C:\Users\blake\Code\AI\Physics\bin\Debug\net6.0\Physics.exe
+C:\Users\blake\Code\AI\Physics\bin\Debug\net6.0\Physics.deps.json
+C:\Users\blake\Code\AI\Physics\bin\Debug\net6.0\Physics.runtimeconfig.json
+C:\Users\blake\Code\AI\Physics\bin\Debug\net6.0\Physics.dll
+C:\Users\blake\Code\AI\Physics\bin\Debug\net6.0\ref\Physics.dll
+C:\Users\blake\Code\AI\Physics\bin\Debug\net6.0\Physics.pdb
+C:\Users\blake\Code\AI\Physics\bin\Debug\net6.0\Raylib-cs.dll
+C:\Users\blake\Code\AI\Physics\bin\Debug\net6.0\runtimes\linux-x64\native\libraylib.so
+C:\Users\blake\Code\AI\Physics\bin\Debug\net6.0\runtimes\osx-x64\native\libraylib.dylib
+C:\Users\blake\Code\AI\Physics\bin\Debug\net6.0\runtimes\win-x64\native\raylib.dll
+C:\Users\blake\Code\AI\Physics\bin\Debug\net6.0\runtimes\win-x86\native\raylib.dll
+C:\Users\blake\Code\AI\Physics\obj\Debug\net6.0\Physics.csproj.AssemblyReference.cache
+C:\Users\blake\Code\AI\Physics\obj\Debug\net6.0\Physics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\blake\Code\AI\Physics\obj\Debug\net6.0\Physics.AssemblyInfoInputs.cache
+C:\Users\blake\Code\AI\Physics\obj\Debug\net6.0\Physics.AssemblyInfo.cs
+C:\Users\blake\Code\AI\Physics\obj\Debug\net6.0\Physics.csproj.CoreCompileInputs.cache
+C:\Users\blake\Code\AI\Physics\obj\Debug\net6.0\Physics.csproj.CopyComplete
+C:\Users\blake\Code\AI\Physics\obj\Debug\net6.0\Physics.dll
+C:\Users\blake\Code\AI\Physics\obj\Debug\net6.0\ref\Physics.dll
+C:\Users\blake\Code\AI\Physics\obj\Debug\net6.0\Physics.pdb
+C:\Users\blake\Code\AI\Physics\obj\Debug\net6.0\Physics.genruntimeconfig.cache

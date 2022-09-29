@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "y/ZGBUQaRNde4H7/4/r+TACEtRX2a7rJBZHwG9NUifJnZ5B1XMjxjH/lfDSiOgDK6xUbiyWl//Vj5K3lIkV5HQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\blake\\Coding Projects\\GeoPattern2\\GeoPattern2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\blake\\.nuget\\packages\\raylib-cs\\4.0.0-alpha.5\\raylib-cs.4.0.0-alpha.5.nupkg.sha512",
+    "C:\\Users\\blake\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

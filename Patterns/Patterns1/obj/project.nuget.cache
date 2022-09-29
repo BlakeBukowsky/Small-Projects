@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Pg34ahFlQgORbDOJYlW6JjQGG+YVH9Xc4Ji/7c0Vq3E/dwGtcees+YXEoqE3GbEbjK7wSZm2K+szLLOjGpfFHA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\blake\\Coding Projects\\Thing\\Thing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\blake\\.nuget\\packages\\raylib-cs\\4.0.0-alpha.4\\raylib-cs.4.0.0-alpha.4.nupkg.sha512",
+    "C:\\Users\\blake\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
