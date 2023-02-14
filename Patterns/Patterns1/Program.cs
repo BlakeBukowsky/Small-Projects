@@ -1,8 +1,8 @@
 ﻿using System;
 using Raylib_cs;
 
-int windowHeight = 1080;
-int windowWidth = 1920;
+int windowHeight = 729;
+int windowWidth = 1080;
 
 Random rng = new Random();
 double acac = Math.Sqrt(2);
@@ -21,6 +21,7 @@ int simLength = 0;
 Color color = new Color(255, 0, 0, 255);
 List<Color> colors = new List<Color>();
 Raylib.SetTargetFPS(60);
+int tfps = 60;
 bool dataShowing = false;
 int movement = 30;
 int xOffset = 0;
@@ -30,13 +31,40 @@ int low = 100000;
 int right = -10000;
 int left = 10000;
 bool doAutoZoom = true;
-
+int drawPerFrame = 1;
 Raylib.InitWindow(windowWidth, windowHeight, "Pattern");
 
-Raylib.ToggleFullscreen();
+//Raylib.ToggleFullscreen();
 
 while (!Raylib.WindowShouldClose())
 {
+    if(Raylib.IsKeyPressed(KeyboardKey.KEY_Y))
+    {
+        drawPerFrame = 1;
+        tfps = 60;
+        Raylib.SetTargetFPS(60);
+        doAutoZoom = true;
+        dataShowing = false;
+    }
+    if(Raylib.IsKeyPressed(KeyboardKey.Ke))
+    if(Raylib.IsKeyPressed(KeyboardKey.KEY_UP))
+    {
+        drawPerFrame++;
+    }
+    else if(Raylib.IsKeyPressed(KeyboardKey.KEY_DOWN))
+    {
+        drawPerFrame--;
+    }
+    if(Raylib.IsKeyPressed(KeyboardKey.KEY_RIGHT))
+    {
+        Raylib.SetTargetFPS(tfps + 10);
+        tfps += 10;
+    }
+    else if(Raylib.IsKeyPressed(KeyboardKey.KEY_LEFT) && tfps >=30)
+    {
+        Raylib.SetTargetFPS(tfps - 10);
+        tfps -= 10;
+    }
 	if (Raylib.IsKeyPressed(KeyboardKey.KEY_S))
 	{
 		Skip(10000);
@@ -51,11 +79,16 @@ while (!Raylib.WindowShouldClose())
 	}
 	else
 	{
-		NewPos();
+        for (int i = 0; i < drawPerFrame; i++)
+        {
+        NewPos();
 		simLength++;
+        }
+		
 	}
 
 	Draw();
+
 	if (doAutoZoom)
 	{
 		AutoZoom(70);
@@ -105,7 +138,7 @@ while (!Raylib.WindowShouldClose())
 
 	if (!doAutoZoom)
 	{
-		if (Raylib.IsKeyPressed(KeyboardKey.KEY_EQUAL) && Raylib.IsKeyDown(KeyboardKey.KEY_LEFT_SHIFT))
+		if (Raylib.IsKeyPressed(KeyboardKey.KEY_EQUAL))
 		{
 			ZoomIn(2);
 		}
@@ -113,29 +146,25 @@ while (!Raylib.WindowShouldClose())
 		{
 			ZoomOut(2);
 		}
-		if (Raylib.IsKeyPressed(KeyboardKey.KEY_DOWN))
+		if (Raylib.IsKeyPressed(KeyboardKey.KEY_K))
 		{
 			yOffset -= movement;
 		}
-		else if (Raylib.IsKeyPressed(KeyboardKey.KEY_UP))
+		else if (Raylib.IsKeyPressed(KeyboardKey.KEY_L))
 		{
 			yOffset += movement;
 		}
-		else if (Raylib.IsKeyPressed(KeyboardKey.KEY_RIGHT))
+		else if (Raylib.IsKeyPressed(KeyboardKey.KEY_M))
 		{
 			xOffset -= movement;
 		}
-		else if (Raylib.IsKeyPressed(KeyboardKey.KEY_LEFT))
+		else if (Raylib.IsKeyPressed(KeyboardKey.KEY_N))
 		{
 			xOffset += movement;
 		}
-		else if (Raylib.IsKeyPressed((KeyboardKey.KEY_C)))
-		{
-			AutoZoom(70);
-		}
 	}
 
-	if (Raylib.IsKeyPressed(KeyboardKey.KEY_R))
+	if (Raylib.IsKeyPressed(KeyboardKey.KEY_R) || Raylib.IsKeyPressed(KeyboardKey.KEY_SPACE))
 	{
 		Restart();
 	}
@@ -270,6 +299,7 @@ void DrawData()
 	Raylib.DrawText("FPS: " + Raylib.GetFPS(), 0, 0, 12, Color.WHITE);
 	Raylib.DrawText("Angle Modifier: " + acac, 0, 12, 12, Color.WHITE);
 	Raylib.DrawText("System Life: " + (simLength - 1), 0, 24, 12, Color.WHITE);
+    Raylib.DrawText("Points Per Frame: " + drawPerFrame, 0, 36, 12, Color.WHITE);
 }
 void Draw()
 {
@@ -290,7 +320,7 @@ void Draw()
 			Raylib.DrawLineEx(new System.Numerics.Vector2(Convert.ToInt32(xPositions[i] + xOffset), Convert.ToInt32(yPositions[i] + yOffset)), new System.Numerics.Vector2(Convert.ToInt32(xPositions[i + 1] + xOffset), Convert.ToInt32(yPositions[i + 1]) + yOffset), widthOfLine, colors[i]);
 		}
 	}
-	if (Raylib.IsKeyPressed(KeyboardKey.KEY_SPACE))
+	if (Raylib.IsKeyPressed(KeyboardKey.KEY_I))
 	{
 		if (!dataShowing)
 		{
@@ -410,17 +440,12 @@ void ResetPattern()
 	yPos = 0;
 	oldXPos = xPos;
 	oldYPos = yPos;
-	xPositions = new List<double>();
-	yPositions = new List<double>();
 	simLength = 1;
 	color = new Color(255, 0, 0, 255);
-	colors = new List<Color>();
-	ResetOffsets();
 	high = -10000;
 	low = 10000;
 	right = -10000;
 	left = 10000;
-	lengthOfLine = baseLengthOfLine;
 }
 Raylib.ToggleFullscreen();
 Raylib.CloseWindow();
